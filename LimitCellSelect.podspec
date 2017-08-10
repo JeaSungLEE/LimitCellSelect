@@ -39,7 +39,7 @@ DESC
   #
 
   # s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ DESC
   #
 
   s.source_files  = "LimitCellSelect/**/*.swift"
-  # s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "LimitCellSelect/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
