@@ -7,7 +7,6 @@
 
 ## Intoduction
 ![demo](Image/LimitCellSelect.gif)
-![demo](Image/LimitCellSelect2.gif)
 
 ## Requirements
 
