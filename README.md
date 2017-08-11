@@ -43,7 +43,7 @@ And when the cell is created, it is set by using the set () method.
     }
 ```
 
-
+To select a cell and return the selected cell, use the on () and selectCells () methods.
 ```ruby
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell  = tableView.cellForRow(at: indexPath) else { return }
