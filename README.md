@@ -16,14 +16,17 @@
 
 ### Cocoapods
 
-LimitCellSelect is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+LimitCellSelect is available through [CocoaPods](http://cocoapods.org).
 
 ```ruby
 pod 'LimitCellSelect'
 ```
+### Carthage
+LimitCellSelect is available through [Carthage](https://github.com/Carthage/Carthage).
 
-
+```ruby
+github "https://github.com/kaskay/LimitCellSelect"
+```
 ## Author
 [🇰🇷 kaskay 🇰🇷](https://github.com/kaskay)
 
