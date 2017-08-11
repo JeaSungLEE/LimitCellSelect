@@ -8,9 +8,28 @@
 ## Intoduction
 ![demo](Image/LimitCellSelect.gif)
 
+You can specify the maximum number of cells that can be selected, and specify the cells that are selected by default.
+
 ## Requirements
 
 `LimitCellSelect` is written in Swift 3. Compatible with iOS 9.0+
+
+## Usage
+
+#### import Library
+```ruby
+import LimitCellSelect
+```
+
+#### initial Limit and default select index
+To limit the number of cell selections and preselect a cell
+```ruby
+limitCellSelect = LimitCellSelect.init(limit: 3, defaultIndex: [0,2])
+```
+or If you do not use defaultSelect
+```ruby
+limitCellSelect = LimitCellSelect.init(limit: 3)
+```
 
 ## Installation
 
