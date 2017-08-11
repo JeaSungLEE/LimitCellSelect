@@ -28,7 +28,7 @@ LimitCellSelect is available through [Carthage](https://github.com/Carthage/Cart
 github "https://github.com/kaskay/LimitCellSelect"
 ```
 ## Author
-[🇰🇷 kaskay 🇰🇷](https://github.com/kaskay)
+[kaskay](https://github.com/kaskay)
 
 ## License
 LimitCellSelect is available under the MIT license. See the LICENSE file for more info.
