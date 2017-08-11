@@ -31,6 +31,31 @@ or If you do not use defaultSelect
 limitCellSelect = LimitCellSelect.init(limit: 3)
 ```
 
+And when the cell is created, it is set by using the set () method.
+```ruby
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "reuseIdentifier")
+        
+        // Setting limitCellSelect
+        limitCellSelect.set(cell: cell, row: indexPath.row)
+        
+        return cell
+    }
+```
+
+
+```ruby
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell  = tableView.cellForRow(at: indexPath) else { return }
+        
+        //Checks the currently selected cell.
+        limitCellSelect.on(cell: cell, row: indexPath.row)
+        
+        //Returns the selected cells.
+        print(limitCellSelect.selectCells())
+    }
+```
+
 ## Installation
 
 ### Cocoapods
