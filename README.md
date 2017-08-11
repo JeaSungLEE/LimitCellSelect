@@ -31,4 +31,4 @@ github "https://github.com/kaskay/LimitCellSelect"
 [kaskay](https://github.com/kaskay)
 
 ## License
-LimitCellSelect is available under the MIT license. See the LICENSE file for more info.
+LimitCellSelect is available under the MIT license.
